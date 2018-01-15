@@ -10,10 +10,22 @@ Example Angular repo: https://github.com/epicodus-lessons/angular2-to-do/tree/1.
 
 ### Setup
 
-1. $ ng new [directory name]
+#### VIA NET NINJA
+1. Auto generate files .etc.
 
-PRO TIP: Run $ npm list -g --depth=0 to see what npm packages are installed on your machine.
+```
+$ ng new [app/directory name]
+```
 
+2. Local server. (Provides address.)
+In app directory:
+
+```
+ng serve
+```
+
+
+#### VIA EPICODUS
 
 A *polyfill* is code that implements a feature on browsers that don't technically support that feature. :O (Compensates for any issues.)
 
@@ -25,10 +37,7 @@ $ npm install promise-polyfill --save-exact
 
 *SystemJS* is a module loader tool. Angular uses it internally to construct our apps.
 
-
-* .gitignore
-
-*.gitignore*
+**.gitignore**
 ```
 node_modules/
 npm-debug.log
@@ -39,6 +48,9 @@ app/*.js.map
 build/
 ```
 
+**Packages**
+
+PRO TIP: Run $ npm list -g --depth=0 to see what npm packages are installed on your machine.
 
 ```
 $ npm install
@@ -73,22 +85,22 @@ https://angular.io/guide/structural-directives
 
 ### Vocab
 
-* _Client_: A tool (usually a web browser) that runs on the user's local machine and facilitates their interaction with the internet.
+* **Client**: A tool (usually a web browser) that runs on the user's local machine and facilitates their interaction with the internet.
 
-* _Server_: A machine that waits for incoming requests from clients. It contains resources (such as web pages and files) that can be provided to requesting clients.
+* **Server**: A machine that waits for incoming requests from clients. It contains resources (such as web pages and files) that can be provided to requesting clients.
 
-* _Client-Side_: The actions that must occur to run an application are handled primarily by the client instead of the server.
+* **Client-Side**: The actions that must occur to run an application are handled primarily by the client instead of the server.
 
-* _Server-Side_: Considered the "opposite" of client-side, in a sense, applications in which the client's request to view a page triggers the execution of a script that runs on the server to generate dynamic HTML. This HTML is then sent to the client browser.
+* **Server-Side**: Considered the "opposite" of client-side, in a sense, applications in which the client's request to view a page triggers the execution of a script that runs on the server to generate dynamic HTML. This HTML is then sent to the client browser.
 
-* _Model-View-Controller_: A type of design followed by many frameworks (including Angular) in which application, and all interactions are managed by models, views, and controllers.
+* **Model-View-Controller**: A type of design followed by many frameworks (including Angular) in which application, and all interactions are managed by models, views, and controllers.
 
-* _Model_: Represents data, and how the data is defined. Most applications require some sort of data.
+* **Model**: Represents data, and how the data is defined. Most applications require some sort of data.
 
-* _View_: The portion of an application the user sees, or views. It represents the user interface of the application.
+* **View**: The portion of an application the user sees, or views. It represents the user interface of the application.
 
-* _Controller_: Handles input from the user such as clicks or browser events. It is responsible for updating the model when necessary.
+* **Controller**: Handles input from the user such as clicks or browser events. It is responsible for updating the model when necessary.
 
-* _Client-Side MVC_: An application that both follows the MVC design structure, and relies on the client to handle most of the actions necessary to run. Angular 2, for example.
+* **Client-Side MVC**: An application that both follows the MVC design structure, and relies on the client to handle most of the actions necessary to run. Angular 2, for example.
 
-* _Component_: A small, reusable package of both front and back-end code that works together. That means components handle both rendering front-end pieces of user interface and any back-end logic required to make those front-end elements interactive.
+* **Component**: A small, reusable package of both front and back-end code that works together. That means components handle both rendering front-end pieces of user interface and any back-end logic required to make those front-end elements interactive.
