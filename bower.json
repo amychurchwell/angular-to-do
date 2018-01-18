@@ -6,7 +6,7 @@
     "Amy Churchwell <amy.churchwell@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/amychurchwell/angular-to-do",
   "ignore": [
     "**/.*",
     "node_modules",
